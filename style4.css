@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    color: unset;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1{
+    color: #fff;
+    min-width: max-content;
+    padding-left: 5px;
+  }
+  header {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0);
+    margin-bottom: 2em;
+    min-height: 90px;
+  }
+  header img {
+    width: 100px;
+    height: auto;
+  }
+  .nav-bar {
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: end;
+    padding-right: 3em;
+  }
+  header a{
+    padding: 0 20px;
+  }
+   a:hover{
+    text-decoration: underline;
+    color: rgb(251, 255, 37);
+    }
+  
+    /*main*/
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    main h1{
+        color: rgb(251, 255, 37);
+    }
+    .containermaps{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: 1px solid white;
+        border-radius: 20px;
+        margin-top: 15px;
+    }
+
+    .containermaps:hover{
+        scale: 1.4;
+        transition: 0.4s;
+        margin-top: 70px;
+    }
+
+    iframe{
+        width: 300px;
+        height: auto;
+        margin: 20px 20px;
+    }
+
+    p{
+        margin-top: 5px;
+        color: #ffffff9a;
+        font-size: x-small;
+    }
