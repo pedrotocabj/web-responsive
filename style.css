@@ -44,7 +44,7 @@ nav a {
   align-items: center;
 }
 
-.abc{
+#abc{
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
@@ -86,8 +86,6 @@ nav a {
 }
 
 footer {
-  position: absolute;
-  bottom: 10px;
   display: grid;
   grid-template-rows: 1fr 1fr;
   text-align: center;
@@ -113,10 +111,18 @@ footer p {
   margin-top: 8px;
 }
 
+footer i{
+  margin: 0 5px;
+}
+
+
 /*Products*/
 
-
-
+#abcde{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .stores-container h1{
   color: rgb(250, 250, 75);
