@@ -44,46 +44,6 @@ nav a:hover {
   align-items: center;
 }
 
-main {
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-}
-
-.title-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.title-container h2 {
-  font-weight: 550;
-}
-
-.title-container span {
-  text-decoration: underline rgba(255, 255, 255, 0.671);
-}
-
-.title-container a {
-  margin-top: 40px;
-  background-color: transparent;
-  border-radius: 50%;
-  border: 1px solid white;
-  width: fit-content;
-  padding: 30px;
-  font-weight: 650;
-}
-
-.title-container a:hover {
-  background-image: url(https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_poles_1k.jpg);
-  background-size: cover;
-  color: black;
-  box-shadow: 1px -1px 42px 16px rgba(255, 255, 255, 0.192);
-  -webkit-box-shadow: 1px -1px 42px 16px rgba(255, 255, 255, 0.192);
-  -moz-box-shadow: 1px -1px 42px 16px rgba(255, 255, 255, 0.192);
-}
-
 footer {
   position: absolute;
   bottom: 10px;
@@ -112,54 +72,6 @@ footer p {
   margin-top: 8px;
 }
 
-@media only screen and (max-width: 781px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 
-  #containerimage {
-    display: flex;
-    flex-direction: column;
-  }
 
-  nav,ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    flex-wrap: wrap;
-  }
 
-  nav a {
-    margin: 0 3px;
-  }
-
-  .title-container a {
-    background-image: url(https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_poles_1k.jpg);
-    background-size: cover;
-    color: black;
-    box-shadow: 1px -1px 42px 16px rgba(255, 255, 255, 0.192);
-    -webkit-box-shadow: 1px -1px 42px 16px rgba(255, 255, 255, 0.192);
-    -moz-box-shadow: 1px -1px 42px 16px rgba(255, 255, 255, 0.192);
-  }
-}
-
-@media only screen and (max-width: 300px) {
-  header h1 {
-    display: none;
-  }
-
-  #containerimage {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  nav a {
-    margin: 0 3px;
-  }
-}
