@@ -44,7 +44,7 @@ nav a {
   align-items: center;
 }
 
-#abc{
+.abc{
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
@@ -112,6 +112,30 @@ footer img {
 footer p {
   margin-top: 8px;
 }
+
+/*Products*/
+
+
+
+
+.stores-container h1{
+  color: rgb(250, 250, 75);
+  margin: 40px 0 30px 0;
+}
+
+.maps-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+iframe{
+  width: 100%;
+}
+
 
 /*About us page*/
 
@@ -195,6 +219,12 @@ i{
   }
   main p{
     text-align: center;
+  }
+
+  .maps-container{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
   }
 
 
